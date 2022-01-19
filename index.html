@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <form id="form" class="form">
+        <h2>계정 등록</h2>
+        <div class="form-control">
+          <label for="username">사용자 이름</label>
+          <input type="text" id="username" placeholder="사용자 이름 입력" />
+          <small>Error message</small>
+        </div>
+        <div class="form-control">
+          <label for="email">이메일 주소</label>
+          <input type="email" id="email" placeholder="이메일 주소 입력" />
+          <small>Error message</small>
+        </div>
+        <div class="form-control">
+          <label for="password">비밀번호</label>
+          <input type="password" id="password" placeholder="비밀번호 입력" />
+          <small>Error message</small>
+        </div>
+        <div class="form-control">
+          <label for="passwordConfirm">비밀번호 확인란</label>
+          <input
+            type="password"
+            id="passwordConfirm"
+            placeholder="비밀번호 재입력"
+          />
+          <small>Error message</small>
+        </div>
+        <button class="submit" type="submit">제출</button>
+      </form>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
